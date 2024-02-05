@@ -167,6 +167,9 @@ ol {
 	position: relative;
 	z-index: 1;
 }
+.site-btn :hover{
+  color:#b01ba5;
+}
 
 .site-btn img {
 	position: relative;
