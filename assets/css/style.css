@@ -28,6 +28,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 500;
+
 }
 
 h1 {
@@ -35,7 +36,7 @@ h1 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 32px;
 }
 
 h3 {
@@ -151,23 +152,26 @@ ol {
 
 .site-btn {
 	display: inline-block;
-	border: none;
-	font-size: 14px;
+	border:  1px solid black;
+	font-size: 0.95rem;
 	font-weight: 700;
-	font-style: italic;
+	font-style: normal;
 	min-width: 186px;
 	padding: 24px 30px;
-	border-radius: 0;
+	border-radius: 5px;
 	text-transform: uppercase;
 	color: #081624;
 	line-height: normal;
 	cursor: pointer;
 	text-align: center;
-	background: #fff;
+	background-color: #fff;
 	position: relative;
 	z-index: 1;
 }
 
+.site-btn:hover{
+	text-decoration: underline;
+}
 .site-btn img {
 	position: relative;
 	left: 13px;
@@ -185,6 +189,7 @@ ol {
 	top: 10px;
 	background: #b01ba5;
 	z-index: -2;
+	border-radius:5px;
 	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 }
@@ -473,13 +478,17 @@ ol {
 }
 
 .hero-item h2 {
-	font-size: 160px;
+	font-size: 6rem;
 	color: #fff;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 1;
 	position: relative;
 	top: 100px;
 	opacity: 0;
+	margin-bottom: 3rem;
+	
+
+	  
 }
 
 .hero-item p {
@@ -960,7 +969,7 @@ ol {
 	background: linear-gradient(to right, #330d38 0%, #190d36 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#330d38', endColorstr='#190d36', GradientType=1);
-	/* IE6-9 */
+	/* IE6-9 */ 
 }
 
 .footer-section .container {
@@ -987,12 +996,10 @@ ol {
 .footer-menu li:last-child a {
 	margin-right: 0;
 }
-
 .footer-social {
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
-
 .footer-social a:first-child {
 	margin-left: 0;
 }
@@ -1122,6 +1129,29 @@ ol {
 
 .game-item .read-more img {
 	margin-left: 13px;
+}
+.readMoreDiv{
+	display:flex;
+	padding:10px;
+
+
+}
+.read-more-anchor{
+	/* background-color: #b01ba5; */
+	/* color:white;
+	font-style: normal;
+	border:1px #b01ba5 solid;
+	
+	text-align: center;
+	height: 3rem; */
+	border-radius: 5px;
+	color: white;
+}
+#readmorebutton{
+	height:3rem;
+	width:8rem;
+	background-color: #b01ba5;
+	display:inline;
 }
 
 .site-pagination {
@@ -1480,7 +1510,15 @@ ol {
 		max-width: 1175px;
 	}
 }
-
+.container-2{
+	height:100%;
+	display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.text-box h3{
+	line-height: 100%;
+}
 @media (max-width: 1530px) {
 	.hero-slider .owl-dots {
 		width: 1170px;
@@ -1722,4 +1760,7 @@ ol {
 		float: none;
 		margin-bottom: 20px;
 	}
+}
+.footerlogo-div{
+	height:15rem;
 }
