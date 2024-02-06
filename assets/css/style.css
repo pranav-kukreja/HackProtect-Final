@@ -1,16 +1,3 @@
-/* =================================
-------------------------------------
-  EndGam - Gaming Magazine Template
-  Version: 1.0
- ------------------------------------
- ====================================*/
-
-
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
 html,
 body {
 	height: 100%;
@@ -36,7 +23,7 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 36px;
 }
 
 h3 {
@@ -145,7 +132,7 @@ ol {
 }
 
 /*---------------------
-  Commom elements
+  Common elements
 -----------------------*/
 
 /* buttons */
@@ -593,17 +580,11 @@ ol {
 ---------------------*/
 
 .blog-section {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
 	background: #501755;
-	/* Old browsers */
-	/* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* Chrome10-25,Safari5.1-6 */
 	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
 	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
 }
 
 .blog-section .section-title {
@@ -958,18 +939,12 @@ ol {
 
 .footer-section {
 	text-align: center;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#330d38+0,190d36+100 */
 	background: #330d38;
-	/* Old browsers */
-	/* FF3.6-15 */
 	background: -webkit-linear-gradient(left, #330d38 0%, #190d36 100%);
-	/* Chrome10-25,Safari5.1-6 */
 	background: -webkit-gradient(linear, left top, right top, from(#330d38), to(#190d36));
 	background: -o-linear-gradient(left, #330d38 0%, #190d36 100%);
 	background: linear-gradient(to right, #330d38 0%, #190d36 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#330d38', endColorstr='#190d36', GradientType=1);
-	/* IE6-9 */ 
 }
 
 .footer-section .container {
@@ -1064,17 +1039,11 @@ ol {
 
 .games-section {
 	padding: 108px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
 	background: #501755;
-	/* Old browsers */
-	/* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* Chrome10-25,Safari5.1-6 */
 	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
 	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
 }
 
 .game-filter {
@@ -1130,28 +1099,27 @@ ol {
 .game-item .read-more img {
 	margin-left: 13px;
 }
-.readMoreDiv{
-	display:flex;
-	padding:10px;
 
-
-}
 .read-more-anchor{
-	/* background-color: #b01ba5; */
-	/* color:white;
-	font-style: normal;
-	border:1px #b01ba5 solid;
-	
-	text-align: center;
-	height: 3rem; */
 	border-radius: 5px;
 	color: white;
 }
+
 #readmorebutton{
 	height:3rem;
 	width:8rem;
 	background-color: #b01ba5;
 	display:inline;
+	padding:0.5rem;
+	border-radius: 5px;
+}
+#readmorebutton:hover{
+	height:3rem;
+	width:8rem;
+	color: #000;
+	display:inline;
+	padding:0.5rem;
+	border-radius:5px;
 }
 
 .site-pagination {
@@ -1208,17 +1176,11 @@ ol {
 .blog-page,
 .contact-page {
 	padding: 104px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
 	background: #501755;
-	/* Old browsers */
-	/* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* Chrome10-25,Safari5.1-6 */
 	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
 	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
 }
 
 .game-single-preview {
